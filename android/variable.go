@@ -228,6 +228,7 @@ type ProductVariables struct {
 	Platform_version_known_codenames       *string  `json:",omitempty"`
 
 	DeviceName                            *string  `json:",omitempty"`
+	PixelageDeviceName                     *string  `json:",omitempty"`
 	DeviceProduct                         *string  `json:",omitempty"`
 	DeviceArch                            *string  `json:",omitempty"`
 	DeviceArchVariant                     *string  `json:",omitempty"`
@@ -512,6 +513,7 @@ type ProductVariables struct {
 	BoardUseVbmetaDigestInFingerprint *bool `json:",omitempty"`
 
 	OemProperties []string `json:",omitempty"`
+	PixelageDevice []string `json:",omitempty"`
 
 	ArtTargetIncludeDebugBuild *bool `json:",omitempty"`
 
